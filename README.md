@@ -1,3 +1,5 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Malcolm Mmari Banner" /></p>
 # Hi I'm Malcolm Mmari
 ![Backend](https://img.shields.io/badge/Focus-Backend%20Engineering-blue?style=for-the-badge)
 <img src="https://img.shields.io/badge/Career-Early%20Engineer-green?style=for-the-badge" />
