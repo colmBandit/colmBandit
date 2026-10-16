@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="Terminal: Malcolm Mmari, Backend Engineer">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .prompt { fill: #3fb950; font-size: 17px; }
+    .cmd { fill: #e6edf3; font-size: 17px; }
+    .name { fill: #e6edf3; font-size: 40px; font-weight: 700; }
+    .role { fill: #58a6ff; font-size: 20px; font-weight: 600; }
+    .muted { fill: #8b949e; font-size: 16px; }
+    .title { fill: #8b949e; font-size: 13px; }
+    .line { opacity: 0; animation: show 0.01s forwards; }
+    .l1 { animation-delay: 0.3s; }
+    .l2 { animation-delay: 1.0s; }
+    .l3 { animation-delay: 1.6s; }
+    .l4 { animation-delay: 2.3s; }
+    .l5 { animation-delay: 2.9s; }
+    .l6 { animation-delay: 3.6s; }
+    .cursor { opacity: 0; animation: show 0.01s 3.6s forwards, blink 1s 3.6s steps(1) infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  <rect x="1" y="1" width="898" height="318" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v27 h-898 z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="899" y2="40" stroke="#30363d" stroke-width="1"/>
+  <circle cx="26" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="66" cy="21" r="6" fill="#28c840"/>
+  <text x="450" y="25" text-anchor="middle" class="mono title">malcolm@mal-x: ~</text>
+
+  <g class="mono">
+    <text x="32" y="82" class="line l1"><tspan class="prompt">$</tspan><tspan class="cmd"> whoami</tspan></text>
+    <text x="32" y="132" class="line l2 name">Malcolm Mmari</text>
+    <text x="32" y="164" class="line l3 role">Backend Engineer · Founder @ Mal-X Technologies</text>
+    <text x="32" y="210" class="line l4"><tspan class="prompt">$</tspan><tspan class="cmd"> cat focus.txt</tspan></text>
+    <text x="32" y="240" class="line l5 muted">REST APIs · Auth &amp; RBAC · System design · AI integration</text>
+    <text x="32" y="284" class="line l6"><tspan class="prompt">$</tspan><tspan class="cmd"> ./ship --real-world</tspan></text>
+    <rect x="262" y="269" width="10" height="20" fill="#e6edf3" class="cursor"/>
+  </g>
+</svg>
